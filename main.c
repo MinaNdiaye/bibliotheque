@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Expo.h"
+#include "examen2ndsemestre.h"
 
 int main() {
     int choix;
