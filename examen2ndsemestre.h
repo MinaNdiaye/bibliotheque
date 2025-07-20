@@ -1,6 +1,6 @@
 
-#ifndef EXPO_H
-#define EXPO_H
+#ifndef examen2ndsemestre_H
+#define examen2ndsemestre_H
 
 #define MAX 100
 
