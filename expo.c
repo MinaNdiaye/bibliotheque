@@ -73,3 +73,15 @@ void retournerLivre() {
     }
 printf("Livre introuvable.\n");
 }
+
+void afficherLivres() {
+    for (int i = 0; i < nbLivres; i++) {
+        printf("%d. %s - %s (%d) ISBN: %d\n", i+1, T[i].titre, T[i].auteur, T[i].annee, T[i].isbn);
+        if (T[i].emprunte == 1) {
+    printf("Emprunte");
+} else {
+    printf("Disponible");
+}
+
+    }
+}
