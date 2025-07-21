@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 void emprunterLivre() {
     int isbn;
     printf("ISBN du livre a emprunter : ");
@@ -56,3 +57,6 @@ void retournerLivre() {
     }
 printf("Livre introuvable.\n");
 }
+=======
+
+>>>>>>> c019f960e511393c3080e31cd6c2803101253454
