@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1752955742 source:c:\users\hp\downloads\bibliotheque\expo.c
+	<stdio.h>
+	<string.h>
+	"Expo.h"
+
+1752955742 c:\users\hp\downloads\bibliotheque\expo.h
+
+1752955742 source:c:\users\hp\downloads\bibliotheque\main.c
+	<stdio.h>
+	"Expo.h"
+
+1753110903 source:c:\users\toshiba\desktop\bibliotheque\expo.c
+	<stdio.h>
+	<string.h>
+	"Expo.h"
+
+1753110903 c:\users\toshiba\desktop\bibliotheque\expo.h
+
+1753110903 source:c:\users\toshiba\desktop\bibliotheque\main.c
+	<stdio.h>
+	"Expo.h"
+
