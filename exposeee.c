@@ -19,18 +19,6 @@ void ajouterLivre() {
     nbLivres++;
 }
 
-void afficherLivres() {
-    for (int i = 0; i < nbLivres; i++) {
-        printf("%d. %s - %s (%d) ISBN: %d - %s\n", i+1, livres[i].titre, livres[i].auteur, livres[i].annee, livres[i].isbn);
-        if (livres[i].emprunte == 1) {
-    printf("Emprunte");
-} else {
-    printf("Disponible");
-}
-
-    }
-}
-
 void rechercherLivre() {
     char recherche[100];
     int choix;
@@ -65,6 +53,18 @@ void supprimerLivre() {
             break;
         }
     }
+
+void afficherLivres() {
+    for (int i = 0; i < nbLivres; i++) {
+        printf("%d. %s - %s (%d) ISBN: %d\n", i+1, T[i].titre, T[i].auteur, T[i].annee, T[i].isbn);
+        if (T[i].emprunte == 1) {
+    printf("Emprunte");
+} else {
+    printf("Disponible");
+}
+
+    }
+}
 }
 
 void emprunterLivre() {
