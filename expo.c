@@ -110,3 +110,19 @@ void rechercherLivre() {
         }
 }
 
+void supprimerLivre() {
+    int isbn;
+    printf("ISBN du livre a supprimer : ");
+    scanf("%d", &isbn);
+    getchar();
+
+    for (int i = 0; i < nbLivres; i++) {
+        if (T[i].isbn == isbn) {
+            for (int j = i; j < nbLivres - 1; j++) {
+                T[j] = T[j + 1];
+            }
+            nbLivres--;
+            break;
+        }
+    }
+}
