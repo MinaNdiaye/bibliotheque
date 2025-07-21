@@ -5,5 +5,11 @@ void afficherStatistiques() {
         if (livres[i].emprunte) occupe++;
         else dispo++;
     }
-    printf("Total : %d\nDisponibles : %d\nEmpruntes : %d\n", nbLivres, dispo,†occupe);
+    printf("\n+--------------------+\n");
+    printf("|   STATISTIQUES     |\n");
+    printf("+--------------------+\n");
+    printf("| Total       : %d |\n",nbLivres);
+    printf("| Disponibles : %d |\n",dispo);
+    printf("| Emprunt√©s   : %d |\n",occupe);
+    printf("+--------------------+\n");
 }
