@@ -10,3 +10,14 @@
 	<stdio.h>
 	"Expo.h"
 
+1753110903 source:c:\users\toshiba\desktop\bibliotheque\expo.c
+	<stdio.h>
+	<string.h>
+	"Expo.h"
+
+1753110903 c:\users\toshiba\desktop\bibliotheque\expo.h
+
+1753110903 source:c:\users\toshiba\desktop\bibliotheque\main.c
+	<stdio.h>
+	"Expo.h"
+

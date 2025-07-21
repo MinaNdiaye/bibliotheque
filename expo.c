@@ -85,3 +85,28 @@ void afficherLivres() {
 
     }
 }
+void rechercherLivre() {
+    char recherche[100];
+    int choix;
+    int trouve = 0;
+    puts("1. Par titre");
+    puts("2. Par auteur");
+    getchar();
+    puts("Choix : ");
+    scanf("%d", &choix);
+    printf("Recherche : ");
+    fflush(stdin);
+    gets(recherche);
+    for (int i = 0; i < nbLivres; i++) {
+        if ((choix == 1 && strcasecmp(T[i].titre, recherche) == 0) ||
+            (choix == 2 && strcasecmp(T[i].auteur, recherche) == 0)) {
+            printf("%s - %s (%d) ISBN: %d ", T[i].titre, T[i].auteur, T[i].annee, T[i].isbn);
+            trouve = 1;
+        }
+    }
+            fflush(stdin);
+    if(!(trouve)){
+        printf("\nAucun livre ne correspond a votre recherche ATTOISSE Mohamed.");
+        }
+}
+
